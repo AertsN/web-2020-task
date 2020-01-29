@@ -8,38 +8,47 @@
 <script src="1-1.js"></script>
 <script src="1-2.js"></script>
 <script src="1-3.js"></script>
-<script src="1-4.js"></script>
 </head>
 <body>
 
 
 <input type="button" value="あいさつ！" onclick="alert('Hello!');">
 
-<h1>自己紹介</h1>
-<dt>名前</dt>
+<h4><div id="a-box">
+    1.自己紹介<br>
+    2.好きなスポーツ<br>
+    3.好きなげーム<br>
+  </h4></div>
+
+
+
+
+
+<h1>1.自己紹介</h1>
+<h4><dt>名前</dt></h4>
 <dd>野原　亜敦</dd>
-<dt>生年月日</dt>
+<h4><dt>生年月日</dt></h4>
 <dd>1999年9月9日</dd>
-<dt>血液型</dt>
+<h4><dt>血液型</dt></h4>
 <dd>A型</dd>
-<dt>出身地</dt>
+<h4><dt>出身地</dt></h4>
 <dd><a href="https://www.town.kawajima.saitama.jp/">埼玉県川島町</a>（坂戸市の隣）</dd>
-<dt>趣味</dt>
+<h4><dt>趣味</dt></h4>
 <dd>スポーツ　ゲーム</dd>
 
-<h1>スポーツ経験</h1>
+<h1>2.好きなスポーツ</h1>
 <input type="button" value="こたえ" onclick="ThreeSecChange();">
-<img src='./image/kangaeru.png' id="logo"width="500" height="380" alt="kangaeru Logo">
+<img src='./image/kangaeru.png' id="logo="width="400" height="330" alt="kangaeru Logo">
 <br>
-<h1>好きなゲーム</h1>
+<h1>3.好きなゲーム</h1>
 <form name="timer">
 <input type ="button" value="スタート" onclick="hyoji()">
 <br>
 <input type="text" name="moji" size="30" value="">
-</form>
+</form> 
 
-
-
+<h1>
+<input type="button" value="終わり" onclick="alert('ありがとうございました!');"></h1>
 </body> 
 
 </html>
